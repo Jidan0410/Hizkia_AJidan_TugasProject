@@ -12,6 +12,40 @@ public class PeminjamanMember {
     Date pinjaman;
     Date pengembalian;
 
+    public PeminjamanMember() {
+    }
+
+    public PeminjamanMember(int id, int nim, int jumlahbuku, int harga, int id_buku, String nama, String pegawai, String nama_buku, Date pinjaman, Date pengembalian) {
+        this.id = id;
+        this.nim = nim;
+        this.jumlahbuku = jumlahbuku;
+        this.harga = harga;
+        this.id_buku = id_buku;
+        this.nama = nama;
+        this.pegawai = pegawai;
+        this.nama_buku = nama_buku;
+        this.pinjaman = pinjaman;
+        this.pengembalian = pengembalian;
+    }
+
+    public PeminjamanMember(int id, int nim, int jumlahbuku, int harga, int id_buku, String nama, String pegawai, String nama_buku) {
+        this.id = id;
+        this.nim = nim;
+        this.jumlahbuku = jumlahbuku;
+        this.harga = harga;
+        this.id_buku = id_buku;
+        this.nama = nama;
+        this.pegawai = pegawai;
+        this.nama_buku = nama_buku;
+    }
+
+    public PeminjamanMember(int id, int nim, int id_buku, String nama) {
+        this.id = id;
+        this.nim = nim;
+        this.id_buku = id_buku;
+        this.nama = nama;
+    }
+
     public void tampilkaninfopeminjam(){
         System.out.println("ID Peminjam :"+id);
         System.out.println("NIM Peminjam :"+nim);
