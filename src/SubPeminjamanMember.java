@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class SubPeminjamanMember {
+public class SubPeminjamanMember extends PeminjamanMember {
     int kode_buku;
     int kode_peminjam;
     Date tgl_pinjam;
