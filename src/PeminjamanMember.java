@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Date;
 
 public class PeminjamanMember {
     int id;
@@ -68,5 +69,85 @@ public class PeminjamanMember {
         System.out.println("Nama buku :"+nama_buku);
         System.out.println("Harga buku :"+harga);
         System.out.println("jumlah buku :"+jumlahbuku);
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getNim() {
+        return nim;
+    }
+
+    public void setNim(int nim) {
+        this.nim = nim;
+    }
+
+    public int getJumlahbuku() {
+        return jumlahbuku;
+    }
+
+    public void setJumlahbuku(int jumlahbuku) {
+        this.jumlahbuku = jumlahbuku;
+    }
+
+    public int getHarga() {
+        return harga;
+    }
+
+    public void setHarga(int harga) {
+        this.harga = harga;
+    }
+
+    public int getId_buku() {
+        return id_buku;
+    }
+
+    public void setId_buku(int id_buku) {
+        this.id_buku = id_buku;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public String getPegawai() {
+        return pegawai;
+    }
+
+    public void setPegawai(String pegawai) {
+        this.pegawai = pegawai;
+    }
+
+    public String getNama_buku() {
+        return nama_buku;
+    }
+
+    public void setNama_buku(String nama_buku) {
+        this.nama_buku = nama_buku;
+    }
+
+    public Date getPinjaman() {
+        return pinjaman;
+    }
+
+    public void setPinjaman(Date pinjaman) {
+        this.pinjaman = pinjaman;
+    }
+
+    public Date getPengembalian() {
+        return pengembalian;
+    }
+
+    public void setPengembalian(Date pengembalian) {
+        this.pengembalian = pengembalian;
     }
 }
