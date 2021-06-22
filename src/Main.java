@@ -23,5 +23,14 @@ public class Main {
         peminjambsa1.no_telp = "081224234576";
         peminjambsa1.alamat = "Amuntai";
 
+        peminjam1.tampilkaninfopeminjam();
+        peminjam1.tampilkaninfopeminjam();
+        peminjam1.tampilkaninfopeminjam();
+        peminjam1.tampilkaninfopeminjam();
+        peminjam1.tampilkaninfopeminjam();
+        peminjam1.tampilkaninfopeminjam();
+        peminjambsa1.meminjambukuberjangkawaktu();
+        peminjambsa1.mengembalikanbukuberjangkawaktu();
+
     }
 }
