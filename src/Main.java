@@ -24,9 +24,9 @@ public class Main {
         peminjambsa1.alamat = "Amuntai";
 
         peminjam1.tampilkaninfopeminjam();
-        peminjam1.tampilkaninfopeminjam();
-        peminjam1.tampilkaninfopeminjam();
-        peminjam1.tampilkaninfopeminjam();
+        peminjam1.meminjambuku();
+        peminjam1.mengembalikanbuku();
+        peminjam1.membelibuku();
         peminjam1.tampilkaninfopeminjam();
         peminjam1.tampilkaninfopeminjam();
         peminjambsa1.meminjambukuberjangkawaktu();
