@@ -9,6 +9,16 @@ public class SubPeminjamanMember extends PeminjamanMember {
     String no_telp;
     String alamat;
 
+    @Override
+    public void tampilkaninfopeminjam() {
+        super.tampilkaninfopeminjam();
+    }
+
+    @Override
+    public void meminjambuku() {
+        super.meminjambuku();
+    }
+
     public void meminjambukuberjangkawaktu(){
         System.out.println("Kode Buku Dipinjam :"+kode_buku);
         System.out.println("Tanggal Meminjam :"+tgl_pinjam);
